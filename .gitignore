@@ -1,0 +1,27 @@
+
+
+
+# Secrets (never upload these)
+.env
+*.key
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Models and generated files
+*.pt
+*.bin
+*.onnx
+backend/audio_out/
+backend/tmp/
+chroma_db/
+*.log
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
